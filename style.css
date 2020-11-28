@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    background-color: mediumpurple;
+    width: 970px; /* Dimensions taken from the properties of the image itself*/
+    min-height: 853px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#upperhalf {
+    display:flex;
+    padding: 20px;
+    border: solid 1px red;
+}
+
+/* 'left box' */
+
+.selfie {
+    display: flex;
+}
+
+
+.jayne-photo {
+    width: 90%;
+    height: 95%;
+    border: solid silver;
+}
+
+/* 'right box' */
+
+.about-me {
+    background-color: seashell;
+    width: 1000px;
+    height: 270px;
+    border: solid black;
+}
+
+h4 {
+    background: silver;
+    font-size: 110%;
+    padding: 10px;
+}
+
+#about-section {
+    display: flex;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+/* -------second part------------ */
+
+#lowerhalf {
+    display: flex;
+    /* border: 2px solid green; */
+    min-height: 450px;
+    width: 100%;
+}
+
+.featureditemslamode {
+    border: 2px solid white;
+    height: 450px;
+    width: 33%;
+    margin-left: 3px;
+    padding: 15px;
+    background-image: url(img/lamode.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.featureditemsfam {
+    border: 2px solid white;
+    height: 450px;
+    width: 33%;
+    margin-left: 3px;
+    padding: 15px;
+    background-image: url(img/familycontacts.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.featureditemseleven {
+    border: 2px solid white;
+    height: 450px;
+    width: 33%;
+    margin-left: 3px;
+    padding: 15px;
+    background-image: url(img/fiveEleven.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    border: 2px solid maroon;
+    height: 145px;
+    width: 100%;
+}
+
+.icons img {
+    width: 15%;
+    height: 30%;
+}
+
+.icons button {
+    margin-left: 89px;
+    border-radius: 15px;
+    background-color: mediumseagreen;
+    height: 33px;
+    width: 110px;
+}
+
+.featureditemslamode p {
+    margin-top: 175px;
+}
+
+.featureditemsfam p{
+    margin-top: 160px;
+}
+
+.featureditemseleven p {
+    margin-top: 160px;
+}
+
+/* .content {
+    width: 292px;
+    display: inline-block;
+    border: solid red;
+    vertical-align: top;
+}
+
+.buttons {
+	
+    width: 50px;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: 8px;
+}
+
+
+.boxes img {
+    height: 200px;
+	display: block;
+    text-align: left;
+} */
